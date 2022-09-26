@@ -151,7 +151,7 @@ function draw(){
 
     }
     
-   /* if(keyDown("r") && gameState != "start"){
+    if(keyDown("r") && gameState != "start"){
         gameState = "start";
         life = 3;
         score = 0;
@@ -161,7 +161,7 @@ function draw(){
         zombieGroup.destroyEach();
         bulletGroup.destroyEach();
         hunter.addImage(hunterShooting);
-    } */
+    } 
 
     drawSprites();
 
@@ -209,11 +209,11 @@ function draw(){
         bulletGroup.destroyEach();
     }
 
-/*        if(gameState!= "start"){
+        if(gameState!= "start"){
             textSize(50);
             fill("white");
             text("Press 'R' to restart", 500,500);
-        } */
+        } 
 
    
 
